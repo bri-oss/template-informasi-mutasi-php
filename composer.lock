@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "feedloop/bridex-api-php-sdk",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bri-oss/bridex-api-php-sdk.git",
-                "reference": "6b45d231149e0ebe413a69f30048b4f70d673a7b"
+                "reference": "564c507753dd2be067311e27afeb7621287c32ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bri-oss/bridex-api-php-sdk/zipball/6b45d231149e0ebe413a69f30048b4f70d673a7b",
-                "reference": "6b45d231149e0ebe413a69f30048b4f70d673a7b",
+                "url": "https://api.github.com/repos/bri-oss/bridex-api-php-sdk/zipball/564c507753dd2be067311e27afeb7621287c32ba",
+                "reference": "564c507753dd2be067311e27afeb7621287c32ba",
                 "shasum": ""
             },
             "require": {
@@ -41,9 +41,9 @@
             "description": "helps to integrate easily with BRI API",
             "support": {
                 "issues": "https://github.com/bri-oss/bridex-api-php-sdk/issues",
-                "source": "https://github.com/bri-oss/bridex-api-php-sdk/tree/v1.1.2"
+                "source": "https://github.com/bri-oss/bridex-api-php-sdk/tree/v1.1.3"
             },
-            "time": "2023-11-24T06:44:09+00:00"
+            "time": "2023-11-24T07:19:38+00:00"
         },
         {
             "name": "graham-campbell/result-type",
