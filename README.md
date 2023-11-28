@@ -1,5 +1,8 @@
 # Template-informasi-mutasi-php
-This is a simple template for Informasi Mutasi SNAP BI using PHP 
+
+This is a simple template for BRI Informasi Mutasi SNAP BI using PHP 
+
+- [Documentation](https://developers.bri.co.id/id/snap-bi/api-bank-statement-snap-bi)
 
 ## How to Setup Project :rocket:
 ```bash
