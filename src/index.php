@@ -7,8 +7,8 @@ Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/..' . '')->load();
 use BRI\InfoMutasi\InfoMutasi;
 
 // env values
-$clientId = $_ENV['CLIENT_KEY']; // customer key
-$clientSecret = $_ENV['CLIENT_SECRET']; // customer secret
+$clientId = $_SERVER['BRI_CLIENT_KEY']; // customer key
+$clientSecret = $_SERVER['BRI_CLIENT_SECRET']; // customer secret
 $pKeyId = $_ENV['PRIVATE_KEY']; // private key
 
 // url path values
