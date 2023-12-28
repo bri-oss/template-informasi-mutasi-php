@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d788d8c8c9a3efa7d8c9c6e650b7566d",
+    "content-hash": "14af0a8b0606c03669e2c5013ef43a30",
     "packages": [
         {
-            "name": "feedloop/bridex-api-php-sdk",
-            "version": "v1.1.3",
+            "name": "briapi/snap-bi-php-sdk",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bri-oss/bridex-api-php-sdk.git",
-                "reference": "564c507753dd2be067311e27afeb7621287c32ba"
+                "reference": "52d65110716afe7646f2b0f8e60ae60faaee934d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bri-oss/bridex-api-php-sdk/zipball/564c507753dd2be067311e27afeb7621287c32ba",
-                "reference": "564c507753dd2be067311e27afeb7621287c32ba",
+                "url": "https://api.github.com/repos/bri-oss/bridex-api-php-sdk/zipball/52d65110716afe7646f2b0f8e60ae60faaee934d",
+                "reference": "52d65110716afe7646f2b0f8e60ae60faaee934d",
                 "shasum": ""
             },
             "require": {
@@ -38,12 +38,12 @@
                     "name": "Feedloop"
                 }
             ],
-            "description": "helps to integrate easily with BRI API",
+            "description": "helps to integrate easily with SNAP BI",
             "support": {
                 "issues": "https://github.com/bri-oss/bridex-api-php-sdk/issues",
-                "source": "https://github.com/bri-oss/bridex-api-php-sdk/tree/v1.1.3"
+                "source": "https://github.com/bri-oss/bridex-api-php-sdk/tree/v1.1.5"
             },
-            "time": "2023-11-24T07:19:38+00:00"
+            "time": "2023-12-27T21:41:30+00:00"
         },
         {
             "name": "graham-campbell/result-type",

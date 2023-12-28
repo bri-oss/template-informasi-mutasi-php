@@ -4,7 +4,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/..' . '')->load();
 
-use BRI\InfoMutasi\InfoMutasi;
+use BRI\Balance\Balance;
 
 // env values
 $clientId = $_SERVER['BRI_CLIENT_KEY']; // customer key
@@ -23,15 +23,4 @@ $endDate = (new DateTime('now', new DateTimeZone('Asia/Jakarta')))->format('Y-m-
 $partnerId = ''; //partner id
 
 
-echo "\nResult: " . (new InfoMutasi())->getInfoMutasi(
-  $account,
-  $startDate,
-  $endDate,
-  $clientId,
-  $clientSecret,
-  $pKeyId,
-  $partnerId,
-  $baseUrl,
-  $path,
-  $accessTokenPath
-);
+echo "\nResult: " . (new Balance())->statement($account, $startDate, $endDate, $clientId, $clientSecret, $pKeyId, $partnerId, $baseUrl, $path, $accessTokenPath);
