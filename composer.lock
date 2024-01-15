@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "briapi/snap-bi-php-sdk",
-            "version": "v1.1.7",
+            "version": "v1.1.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bri-oss/bridex-api-php-sdk.git",
-                "reference": "a802f30cbe8926334ed3719bdf2958044ded2bbb"
+                "url": "https://bitbucket.org/bridce/briapi-php-sdk.git",
+                "reference": "c60e4104ac174572e52ac0317af69c04b0fb9aff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bri-oss/bridex-api-php-sdk/zipball/a802f30cbe8926334ed3719bdf2958044ded2bbb",
-                "reference": "a802f30cbe8926334ed3719bdf2958044ded2bbb",
+                "url": "https://bitbucket.org/bridce/briapi-php-sdk/get/c60e4104ac174572e52ac0317af69c04b0fb9aff.zip",
+                "reference": "c60e4104ac174572e52ac0317af69c04b0fb9aff",
                 "shasum": ""
             },
             "require": {
@@ -39,11 +39,11 @@
                 }
             ],
             "description": "helps to integrate easily with SNAP BI",
+            "homepage": "https://bitbucket.org/bridce/briapi-php-sdk",
             "support": {
-                "issues": "https://github.com/bri-oss/bridex-api-php-sdk/issues",
-                "source": "https://github.com/bri-oss/bridex-api-php-sdk/tree/v1.1.7"
+                "source": "https://bitbucket.org/bridce/briapi-php-sdk/src/c60e4104ac174572e52ac0317af69c04b0fb9aff/?at=v1.1.8"
             },
-            "time": "2024-01-15T11:03:22+00:00"
+            "time": "2024-01-15T13:39:16+00:00"
         },
         {
             "name": "graham-campbell/result-type",
