@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "briapi/snap-bi-php-sdk",
-            "version": "v1.1.5",
+            "version": "v1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bri-oss/bridex-api-php-sdk.git",
-                "reference": "52d65110716afe7646f2b0f8e60ae60faaee934d"
+                "reference": "a802f30cbe8926334ed3719bdf2958044ded2bbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bri-oss/bridex-api-php-sdk/zipball/52d65110716afe7646f2b0f8e60ae60faaee934d",
-                "reference": "52d65110716afe7646f2b0f8e60ae60faaee934d",
+                "url": "https://api.github.com/repos/bri-oss/bridex-api-php-sdk/zipball/a802f30cbe8926334ed3719bdf2958044ded2bbb",
+                "reference": "a802f30cbe8926334ed3719bdf2958044ded2bbb",
                 "shasum": ""
             },
             "require": {
@@ -41,9 +41,9 @@
             "description": "helps to integrate easily with SNAP BI",
             "support": {
                 "issues": "https://github.com/bri-oss/bridex-api-php-sdk/issues",
-                "source": "https://github.com/bri-oss/bridex-api-php-sdk/tree/v1.1.5"
+                "source": "https://github.com/bri-oss/bridex-api-php-sdk/tree/v1.1.7"
             },
-            "time": "2023-12-27T21:41:30+00:00"
+            "time": "2024-01-15T11:03:22+00:00"
         },
         {
             "name": "graham-campbell/result-type",
