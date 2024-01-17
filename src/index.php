@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
+include 'util.php';
 
 Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/..' . '')->load();
 
@@ -29,16 +30,30 @@ $channelId = ''; // channel id
 //external id
 $externalId = (new RandomNumber())->generateRandomNumber(9);;
 
-//timestamp
-$timestamp = (new DateTime('now', new DateTimeZone('Asia/Jakarta')))->format('Y-m-d\TH:i:s.000P');
+// fetches a new access token every specified minute with a maximum of 15 minutes
+$minutes = 15;
 
-//access token
-$accessToken = (new AccessToken(new Signature()))->getAccessToken(
-  $clientId,
-  $pKeyId,
-  $timestamp,
-  $baseUrl,
-  $accessTokenPath,
-);
+if (!file_exists('accessToken.txt') || isTokenExpired('timestamp.txt', $minutes)) {
+  //timestamp
+  $timestamp = (new DateTime('now', new DateTimeZone('Asia/Jakarta')))->format('Y-m-d\TH:i:s.000P');
+
+  //access token
+  $accessToken = (new AccessToken(new Signature()))->getAccessToken(
+    $clientId,
+    $pKeyId,
+    $timestamp,
+    $baseUrl,
+    $accessTokenPath,
+  );
+
+  file_put_contents('accessToken.txt', $accessToken);
+  file_put_contents('timestamp.txt', $timestamp);
+
+  echo "New Token is created\n";
+} else {
+  $accessToken = trim(file_get_contents('accessToken.txt'));
+  $timestamp = trim(file_get_contents('timestamp.txt'));
+  echo "Used Token\n";
+}
 
 echo (new Balance())->statement($account, $startDate, $endDate, $clientSecret, $partnerId, $baseUrl, $path, $accessToken, $channelId, $externalId, $timestamp);
