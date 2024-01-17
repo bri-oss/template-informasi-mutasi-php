@@ -10,8 +10,9 @@ This is a simple template for BRI Informasi Mutasi SNAP BI using PHP
 1. copy .env file by typing 'cp .env.example .env' in the terminal
 2. fill the .env file with the required values
 3. install php package by typing 'composer install' in the terminal
-4. change the account, startDate, endDate and partnerId variables accordingly in src/index.php
-5. run the program by typing 'php src/index.php serve' in the terminal
+4. change the account, channelId and partnerId variables accordingly in src/index.php
+5. Change the minute variable to determine how long it takes to retrieve a fresh access token.
+6. run the program by typing 'php src/index.php serve' in the terminal
 ```
 
 ## Caution
