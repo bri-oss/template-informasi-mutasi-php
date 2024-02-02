@@ -11,8 +11,8 @@ use BRI\Util\RandomNumber;
 use BRI\Signature\Signature;
 
 // env values
-$clientId = $_ENV['BRI_CLIENT_KEY']; // customer key
-$clientSecret = $_ENV['BRI_CLIENT_SECRET']; // customer secret
+$clientId = $_ENV['CONSUMER_KEY']; // customer key
+$clientSecret = $_ENV['CONSUMER_SECRET']; // customer secret
 $pKeyId = $_ENV['PRIVATE_KEY']; // private key
 
 // url path values
