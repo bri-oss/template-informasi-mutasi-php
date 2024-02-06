@@ -1,10 +1,11 @@
 <?php
 
-require __DIR__ . '/../vendor/autoload.php';
 include 'util.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . '/..' . '')->load();
 
+require __DIR__ . '/../briapi-sdk/autoload.php';
 use BRI\Balance\Balance;
 use BRI\Token\AccessToken;
 use BRI\Util\RandomNumber;
