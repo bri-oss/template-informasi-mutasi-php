@@ -1,4 +1,4 @@
-# Template-informasi-mutasi-php
+# Account-Statement-PHP-Template
 
 This is a simple template for BRI Informasi Mutasi SNAP BI using PHP
 
