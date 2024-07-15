@@ -7,11 +7,12 @@ This is a simple template for BRI Informasi Mutasi SNAP BI using PHP
 ## How to Setup Project :rocket:
 
 ```bash
-1. copy .env file by typing 'cp .env.example .env' in the terminal
-2. fill the .env file with the required values
-3. install php package by typing 'composer install' in the terminal
-4. change the account, startDate, endDate and partnerId variables accordingly in src/index.php
-4. run the program by typing 'php src/index.php serve' in the terminal
+1. cd template-informasi-mutasi-php
+2. copy .env file by typing 'cp .env.example .env' in the terminal
+3. fill the .env file with the required values
+4. install php package by typing 'composer install' in the terminal
+5. change the account, startDate, endDate and partnerId variables accordingly in src/index.php
+6. run the program by typing 'php src/index.php serve' in the terminal
 ```
 
 ## Caution
