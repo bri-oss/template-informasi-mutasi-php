@@ -16,7 +16,7 @@ This is a simple template for BRI Informasi Mutasi SNAP BI using PHP
 ## How to Setup Project :rocket:
 
 ```bash
-1. run command `cd template-informasi-mutasi-php` to change directory
+1. run command `cd briapi-template-mutasi-rekening-php` to change directory
 2. copy .env file by typing 'cp .env.example .env' in the terminal
 3. fill the .env file with the required values
 4. install php package by typing 'composer install' in the terminal
