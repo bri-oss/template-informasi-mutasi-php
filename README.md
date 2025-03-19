@@ -25,7 +25,7 @@ This is a simple template for BRI Informasi Mutasi SNAP BI using PHP
 7. fill variable endDate with format Y-m-d\TH:i:sP, eg: '2025-01-14T10:41:45+07:00'. You can generate with (new DateTime('now', new DateTimeZone('Asia/Jakarta')))->modify('-1 day')->format('Y-m-d\TH:i:sP');
 8. fill variable partnerId, eg: 'feedloop'
 9. fill variable channelId, eg: '12345'
-6. run the program by typing 'php src/index.php serve' in the terminal
+10. run the program by typing 'php src/index.php serve' in the terminal
 ```
 
 ## How to get CONSUMER_KEY and CONSUMER_SECRET
