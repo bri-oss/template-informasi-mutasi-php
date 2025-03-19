@@ -24,8 +24,8 @@ $accessTokenPath = '/snap/v1.0/access-token/b2b'; //access token path
 
 // change the variables accordingly
 $account = ''; //account
-$startDate = (new DateTime('now', new DateTimeZone('Asia/Jakarta')))->modify('-1 day')->format('Y-m-d\TH:i:sP');; //start date
-$endDate = (new DateTime('now', new DateTimeZone('Asia/Jakarta')))->format('Y-m-d\TH:i:sP'); //end date || current date
+$startDate = '';//(new DateTime('now', new DateTimeZone('Asia/Jakarta')))->modify('-1 day')->format('Y-m-d\TH:i:sP');; //start date
+$endDate = '';//(new DateTime('now', new DateTimeZone('Asia/Jakarta')))->format('Y-m-d\TH:i:sP'); //end date || current date
 $partnerId = ''; //partner id
 $channelId = ''; // channel id
 

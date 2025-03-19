@@ -20,7 +20,11 @@ This is a simple template for BRI Informasi Mutasi SNAP BI using PHP
 2. copy .env file by typing 'cp .env.example .env' in the terminal
 3. fill the .env file with the required values
 4. install php package by typing 'composer install' in the terminal
-5. change the account, startDate, endDate and partnerId variables accordingly in src/index.php
+5. fill variable account, eg: '234567891012348'
+6. fill variable startDate with format Y-m-d\TH:i:sP, eg: '2025-01-14T09:41:45+07:00'. You can generate with (new DateTime('now', new DateTimeZone('Asia/Jakarta')))->modify('-1 day')->format('Y-m-d\TH:i:sP');
+7. fill variable endDate with format Y-m-d\TH:i:sP, eg: '2025-01-14T10:41:45+07:00'. You can generate with (new DateTime('now', new DateTimeZone('Asia/Jakarta')))->modify('-1 day')->format('Y-m-d\TH:i:sP');
+8. fill variable partnerId, eg: 'feedloop'
+9. fill variable channelId, eg: '12345'
 6. run the program by typing 'php src/index.php serve' in the terminal
 ```
 
